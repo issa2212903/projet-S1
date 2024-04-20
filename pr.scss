@@ -1,0 +1,71 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100vh;
+    background-color: navy;
+   // background: linear-gradient(to bottom, navy, rgb(136, 151, 237)); // Couleur dégradée de nuit à bleu clair
+    display: flex;
+    flex-direction: column; // Aligner le contenu en colonne
+    align-items: center;
+    
+    .circle {
+      margin-top: 20px; 
+      width: 80px;
+      height: 80px; 
+      background-color: white;
+      border-radius: 50%; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      img {
+        max-width: 100%; 
+        max-height: 100%;
+      }
+    }
+    ul {
+        list-style-type: none; 
+        font-size: 22px;
+        font-weight: bold; 
+      }
+  }
+  .ptable {
+    width: 90%;
+  
+   
+    box-shadow:  10px rgba(0, 0, 0, 0.4); // Ombre
+    border-radius: 10px; // Bord arrondis
+    border: 1px solid rgba(0, 0, 0, 0.1); // Bordure avec ombre
+  }
+  .IM{
+    width: 70px;
+    height: 66px;
+}
+  .custom-table {
+    border-collapse: collapse;
+    
+    width: 50%;
+    margin-top: 4%;
+    margin-left: 31%;
+    color: #093AB6;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    //  styles for table cells
+    th, td {
+        border: 1px solid #093AB6 ;
+        padding: 8px;
+        text-align: center;
+        font-weight: bold;
+    }  
+}
+.T1{
+    background-color: #093AB6;
+    color: white;
+}
+.b1{
+    background-color: #093AB6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

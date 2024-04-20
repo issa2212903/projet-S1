@@ -1,0 +1,78 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100vh;
+  background-color: navy;
+ // background: linear-gradient(to bottom, navy, rgb(136, 151, 237)); // Couleur dégradée de nuit à bleu clair
+  display: flex;
+  flex-direction: column; // Aligner le contenu en colonne
+  align-items: center;
+  
+  .circle {
+    margin-top: 20px; 
+    width: 80px;
+    height: 80px; 
+    background-color: white;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    img {
+      max-width: 100%; 
+      max-height: 100%;
+    }
+  }
+  ul {
+      list-style-type: none; 
+      font-size: 22px;
+      font-weight: bold; 
+    }
+}
+
+  .ls{
+    color: #093AB6;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 5px;
+    display: flex;
+    margin-top: 3%;
+    margin-left: 25%;
+    
+    .button{
+     background-color: #093AB6;
+     color: white;
+     font-weight: bold;
+     padding: 5px 19PX;
+     width: 70%;
+     border: none;
+     border-radius: 5px;
+     margin-left: 20px;
+    }
+   }
+   .pt{
+    width: 60%;
+    height: 82vh;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; // Bord arrondis
+    border: 1px solid rgba(0, 0, 0, 0.1); // Bordure avec ombre
+    margin-left: 32%;
+   }
+  .custom-table {
+    border-collapse: collapse;
+    width: 57%;
+    margin-top: 13%;
+    height: 50vh;
+    font-weight: bold;
+    margin-left: 40%;
+    background-color: #093AB6;
+    color: white;
+    
+    td {
+      border: 1px solid white;
+      
+      text-align: center;
+    }
+  }

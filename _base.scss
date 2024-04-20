@@ -1,0 +1,87 @@
+// Mixin pour les propriétés de
+@mixin image-properties($width, $height, $margin) {
+    width: 330px;
+    height: 300px;
+  
+    
+  }
+  // Mixin pour les propriétés de texte
+  @mixin text-properties {
+    font-weight: bold;
+    font-size: 21px;
+    color: blue;
+  }
+  
+  // Mixin pour le conteneur
+  @mixin container-properties {
+    display: flex;
+   
+  }
+  
+  // Mixin pour l'élément image avec texte
+  @mixin image-with-text {
+    flex: 1 1 30%; // ajustez selon vos besoins
+    text-align: center;
+    
+  
+    img {
+      @include image-properties(100%, auto, 0);
+    }
+  
+    p {
+      @include text-properties;
+      margin-top: 10px;
+    }
+  }
+  
+  // Utilisation des mixins pour créer le conteneur
+  .container {
+    @include container-properties;
+  
+    // Utilisation du mixin pour chaque élément image avec texte
+    .image-with-text {
+      @include image-with-text;
+    }
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  
+    .image-with-text {
+        position: relative;
+        text-align: center;
+        transition: transform 0.3s ease; 
+     // border: 1px solid #0056b3; // Ajout d'une bordure
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+      margin-left: 2%;
+      height: 300px;
+  
+        img {
+            max-width: 100%;
+            display: block;
+            border-radius: 10px; 
+        }
+  
+        p {
+            position: absolute;
+            bottom: -20px; 
+            align-items: center;
+            transform: translateX(-50%);
+            
+            padding: 10px;
+            border-radius: 10px; 
+            width: 50%;
+            box-shadow: 0px 4px 6px 0056b3(0, 0, 0, 0.1); 
+            transition: bottom 0.3s ease; // Ajout d'une transition pour l'effet de déplacement
+            visibility: hidden; 
+        }
+  
+        &:hover {
+            p {
+                bottom: -10px; 
+               visibility: visible; 
+            }
+        }
+    }
+  }
+  

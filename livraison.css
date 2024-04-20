@@ -1,0 +1,87 @@
+header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #093AB6;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 90px;
+}
+header .header-content .left-section h1 {
+  margin: 0;
+}
+header .header-content .right-section {
+  position: absolute;
+  right: 10px;
+}
+header .header-content .right-section .us {
+  width: 45px;
+  height: 38px;
+}
+header .header-content .right-section .pn {
+  width: 45px;
+  height: 38px;
+}
+header .bloc {
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  display: flex;
+  width: 30%;
+  margin-right: 30%;
+  justify-content: space-between;
+}
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  position: absolute;
+  right: 0;
+
+  button {
+      background-color: #0056b3;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin: 0 ;
+      cursor: pointer;
+      font-size: 17px;
+  }
+}
+.Lv {
+  font-size: 30px;
+  font-weight: bold;
+  color: #093AB6;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.butval {
+  background-color: #093AB6;
+  color: white;
+  margin-top: 3%;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.butan {
+  background-color: red;
+  color: white;
+  margin-top: 3%;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.form {
+  margin-top: 6%;
+  color: #093AB6;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=livraison.css.map */

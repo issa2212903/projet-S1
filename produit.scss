@@ -1,0 +1,101 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100vh;
+    background-color: #093AB6;
+    display: flex;
+    flex-direction: column; // Aligner le contenu en colonne
+    align-items: center;
+    
+    .circle {
+      margin-top: 20px; 
+      width: 80px;
+      height: 80px; 
+      background-color: white;
+      border-radius: 50%; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      img {
+        max-width: 100%; 
+        max-height: 100%;
+      }
+    }
+    ul {
+        list-style-type: none; 
+        font-size: 22px;
+        font-weight: bold; 
+      }
+      .pbutton {
+        display: flex;
+        justify-content: center;
+        margin-top: 29%;
+        justify-content: space-between;
+    
+        button {
+            background-color: white;
+           color: #093AB6;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 21px;
+        }
+    }
+    
+  }
+  .ls{
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    color: #093AB6;
+    width: 100%;
+    display:flex ;
+    .pbt{
+        background-color: #093AB6;
+        color: white;
+        margin-left: 12%;
+        border-radius: 10px;
+        border: none;
+        padding: 5PX 10px;
+    }
+  }
+  .ptable {
+    width: 50%;
+    height: 144vh;
+    margin-left: 32%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; // Bord arrondis
+    border: 1px solid rgba(0, 0, 0, 0.1); // Bordure avec ombre
+  }
+  .IM{
+    width: 70px;
+    height: 66px;
+}
+  .custom-table {
+    border-collapse: collapse;
+    
+    width: 80%;
+    margin-top: 4%;
+    margin-left: 11%;
+    color: #093AB6;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    th, td {
+        border: 1px solid #093AB6 ;
+        padding: 8px;
+        text-align: center;
+        font-weight: bold;
+    }  
+}
+.T1{
+    background-color: #093AB6;
+    color: white;
+}
+.b1{
+    background-color: #093AB6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

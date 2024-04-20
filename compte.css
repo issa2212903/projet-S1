@@ -1,0 +1,84 @@
+header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #093AB6;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 90px;
+}
+header .header-content .left-section h1 {
+  margin: 0;
+}
+header .header-content .right-section {
+  position: absolute;
+  right: 35px;
+}
+header .header-content .right-section .us {
+  width: 45px;
+  height: 38px;
+}
+header .header-content .right-section .pn {
+  width: 45px;
+  height: 38px;
+}
+header .bloc {
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  display: flex;
+  width: 30%;
+  margin-right: 30%;
+  justify-content: space-between;
+}
+
+.ct {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 31%;
+}
+
+.cn {
+  color: #093AB6;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.container {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  font-weight: bold;
+  margin: auto;
+  background-color: #0056b3;
+  color: #ccc;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-register {
+  background-color: #fff;
+  color: #0056b3;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 70%;
+  text-align: center;
+  font-size: 17px;
+}
+
+/*# sourceMappingURL=compte.css.map */

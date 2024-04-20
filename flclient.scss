@@ -1,0 +1,63 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100vh;
+    background-color: navy;
+   // background: linear-gradient(to bottom, navy, rgb(136, 151, 237)); // Couleur dégradée de nuit à bleu clair
+    display: flex;
+    flex-direction: column; // Aligner le contenu en colonne
+    align-items: center;
+    
+    .circle {
+      margin-top: 20px; 
+      width: 80px;
+      height: 80px; 
+      background-color: white;
+      border-radius: 50%; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      img {
+        max-width: 100%; 
+        max-height: 100%;
+      }
+    }
+    ul {
+        list-style-type: none; 
+        font-size: 22px;
+        font-weight: bold; 
+      }
+  }
+  .pt{
+    width: 60%;
+    height: 72vh;
+    box-shadow: 0px 4px 6px ;
+    border-radius: 10px; 
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-left: 32%;
+   }
+    .etat{
+      margin-top: 3%;
+      margin-left: 34%;
+      font-weight: bold;
+    }
+    .custom-table {
+        border-collapse: collapse;
+        width: 56%;
+        margin-top: 3%;
+        height: 66vh;
+        font-weight: bold;
+        margin-left: 24%;
+        background-color: #093AB6;
+        color: white;
+  
+      
+      td {
+        border: 1px solid white;
+        
+        text-align: center;
+      }
+    }

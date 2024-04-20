@@ -1,0 +1,116 @@
+header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #093AB6;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 90px;
+}
+header .header-content .left-section h1 {
+  margin: 0;
+}
+header .header-content .middle-section input {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+header .header-content .right-section {
+  position: absolute;
+  right: 10px;
+}
+header .header-content .right-section .us {
+  width: 45px;
+  height: 38px;
+}
+header .header-content .right-section .pn {
+  width: 45px;
+  height: 38px;
+}
+header .bloc {
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  display: flex;
+  width: 30%;
+  margin-right: 30%;
+  justify-content: space-between;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.buttons-container button {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 21px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  width: 10%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.butval {
+  background-color: #093AB6;
+  color: white;
+  margin-top: 3%;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.butan {
+  background-color: red;
+  color: white;
+  margin-top: 3%;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.etat {
+  margin-top: 3%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product {
+  background-color: #fff;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+.product :hover {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+/*# sourceMappingURL=scommande.css.map */

@@ -1,0 +1,79 @@
+header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #093AB6;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 90px;
+}
+header .header-content .left-section h1 {
+  margin: 0;
+}
+header .header-content .middle-section input {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+header .header-content .right-section {
+  position: absolute;
+  right: 10px;
+}
+header .header-content .right-section .us {
+  width: 45px;
+  height: 38px;
+}
+header .header-content .right-section .pn {
+  width: 45px;
+  height: 38px;
+}
+header .bloc {
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  display: flex;
+  width: 30%;
+  margin-right: 30%;
+  justify-content: space-between;
+}
+
+.IM {
+  width: 70px;
+  height: 66px;
+}
+
+.lc {
+  color: #093AB6;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.ptable {
+  width: 50%;
+  height: 74vh;
+  margin-left: 22%;
+  box-shadow: 0px 4px 6px;
+  border-radius: 10px;
+  border: 1px solid;
+  font-weight: bold;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  border: 1px solid darkblue;
+  margin-left: 4%;
+  margin-top: 6%;
+}
+table td {
+  border: 1px solid darkblue;
+  padding: 10px;
+  text-align: center;
+}
+
+.etat {
+  margin-top: 3%;
+  margin-left: 4%;
+}
+
+/*# sourceMappingURL=vlivraison.css.map */
